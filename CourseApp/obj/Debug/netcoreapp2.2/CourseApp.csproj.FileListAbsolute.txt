@@ -1,0 +1,14 @@
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.deps.json
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.runtimeconfig.json
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.runtimeconfig.dev.json
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.dll
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.pdb
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.csprojAssemblyReference.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.csproj.CoreCompileInputs.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorAssemblyInfo.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorAssemblyInfo.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.AssemblyInfoInputs.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.AssemblyInfo.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorTargetAssemblyInfo.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.dll
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.pdb
