@@ -2959,6 +2959,32 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "CourseApp",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Course\\Details.cshtml",
+      "TargetPath": "Views\\Course\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\about.cshtml",
+      "TargetPath": "Views\\Home\\about.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Course\\List.cshtml",
+      "TargetPath": "Views\\Course\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Course\\Index.cshtml",
+      "TargetPath": "Views\\Course\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

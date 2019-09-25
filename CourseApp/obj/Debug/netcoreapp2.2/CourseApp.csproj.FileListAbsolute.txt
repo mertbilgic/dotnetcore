@@ -12,3 +12,16 @@ C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp
 C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorTargetAssemblyInfo.cache
 C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.dll
 C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.pdb
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.Views.dll
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\bin\Debug\netcoreapp2.2\CourseApp.Views.pdb
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.TagHelpers.input.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.TagHelpers.output.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorCoreGenerate.cache
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\Details.g.cshtml.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\Index.g.cshtml.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Course\List.g.cshtml.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\about.g.cshtml.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.RazorTargetAssemblyInfo.cs
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.Views.pdb
+C:\Users\Mert Bilgiç\Desktop\dotnet\CourseApp\obj\Debug\netcoreapp2.2\CourseApp.csproj.CopyComplete

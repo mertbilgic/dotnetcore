@@ -32,7 +32,7 @@ namespace CourseApp
 
                 routes.MapRoute(
                     name:"default",
-                    template:"{controller}/{action}/{id?}"
+                    template:"{controller=Home}/{action=Index}/{id?}"
                 );
             }
             
