@@ -1,3 +1,4 @@
+using System.Linq;
 using CourseApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,6 +13,27 @@ namespace CourseApp.Controllers
             return View();
         }
 
+        [HttpGet]
+        //localhost:5000/course/apply method: Get
+        public IActionResult Apply()
+        {
+          
+          return View();
+        }
+        [HttpPost]
+        //localhost:5000/course/apply methot: Post
+        public IActionResult Apply(Student student)
+        {
+
+            if( ModelState.IsValid==true){
+                Repository.AddStudent(student);
+                return View("Thanks",student);
+            }
+            else{
+                return View(student);
+            }
+        }
+
         public IActionResult Details(){
 
             var course = new Course();
@@ -24,8 +46,9 @@ namespace CourseApp.Controllers
         
         //localhost:5000/course/list
         public IActionResult List(){
-            return View();
+
+            var student =Repository.Students.Where(i=>i.Confirm==true);
+            return View(student);
         }
-        
     }
 }
