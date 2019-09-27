@@ -1,0 +1,14 @@
+@model IEnumerable<Listcs>
+
+<div class="list">
+    <ul>
+
+        @foreach (var list in Model)
+        {
+            <li>
+                @list.Name
+            </li>   
+        }
+    </ul>
+    
+</div>

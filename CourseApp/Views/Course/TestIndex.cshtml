@@ -1,0 +1,47 @@
+@model CourseStudentsViewModel
+@{
+   Layout=null;
+}
+@{
+    var classname = Model.Students.Count>2 ? "popular" : null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .popular{
+            color: green;
+            font-weight: 700;
+        }
+
+    </style>
+</head>
+<body>
+    @Html.Partial("_header")
+    <h2 class="@classname">@Model.Course.Name</h2>
+    <hr>
+    <ul>
+    @if (Model.Students.Count!=0)
+    {
+        @foreach (var item in Model.Students)
+        {
+            <li>
+                @item.name
+            </li>
+            
+        }
+    }else
+    {
+       <li>Kayıtlı öğreci yok</li>
+    }
+    </ul>
+   
+
+
+    
+</body>
+</html>
