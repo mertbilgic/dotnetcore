@@ -42,6 +42,7 @@ namespace CourseApp
                 app.UseDeveloperExceptionPage();
             }
 
+            //route işlemlerini yaparken sıralamaya dikkat et
             app.UseMvc(routes => {
 
                 routes.MapRoute(
