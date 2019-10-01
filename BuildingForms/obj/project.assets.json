@@ -12084,11 +12084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mert Bilgiç\\Desktop\\dotnet\\BuildingForms\\BuildingForms.csproj",
+      "projectUniqueName": "C:\\dotnet\\BuildingForms\\BuildingForms.csproj",
       "projectName": "BuildingForms",
-      "projectPath": "C:\\Users\\Mert Bilgiç\\Desktop\\dotnet\\BuildingForms\\BuildingForms.csproj",
+      "projectPath": "C:\\dotnet\\BuildingForms\\BuildingForms.csproj",
       "packagesPath": "C:\\Users\\Mert Bilgiç\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mert Bilgiç\\Desktop\\dotnet\\BuildingForms\\obj\\",
+      "outputPath": "C:\\dotnet\\BuildingForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

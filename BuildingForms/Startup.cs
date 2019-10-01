@@ -19,32 +19,35 @@ namespace BuildingForms
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc()
-            .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+               public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            
+            //wwwroot => /css/style.css
+            app.UseStaticFiles(); 
+
+            //modules/bootstrap/dist/css/bootstrap.min.css
+            app.UseStaticFiles(new StaticFileOptions{
+                FileProvider = new PhysicalFileProvider(Path.Combine
+                (Directory.GetCurrentDirectory(),"node_modules")),
+                RequestPath ="/modules"
+            });
+
+            //Bu koşul sadece geliştirme aşamasında olan bir işlem
+            //Aldığımız hataları detaylı bir şekilde gösterilmesi için
+            //kullanılyıor
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseSpaStaticFiles();
-            
-
-            app.UseSpaStaticFiles(new StaticFileOptions{
-                 FileProvider = new PhysicalFileProvider(
-                    Path.Combine(Directory.GetCurrentDirectory(),"node_modules")),
-                    RequestPath = "/modules"
-            });  
-
             app.UseMvc(routes=>
             {
                 routes.MapRoute(
                     name:"default",
-                    template:"{controller=Home}/{action=Index}/{?id}"
-
+                    template:"{controller=Home}/{action=Index}/{id?}"
                 );
 
             });
